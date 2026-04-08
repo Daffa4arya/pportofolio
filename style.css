@@ -120,12 +120,15 @@ h2 { font-size: 36px; margin-bottom: 30px; }
 }
 
 .tech-stack { display: flex; gap: 10px; margin-top: 20px; }
-.tech-stack span {
-    font-size: 0.8rem;
-    color: var(--main-color);
-    background: rgba(56, 189, 248, 0.1);
-    padding: 4px 10px;
+.tech-stack a {
+    color:var(--second-bg-color);
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 16px;
+    border: 1px solid var(--main-color);
     border-radius: 5px;
+    transition: 0.3s;
+    background: var(--main-color);
 }
 
 /* Footer */
